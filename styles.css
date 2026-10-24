@@ -12,3 +12,5 @@
 
 .filter-set{flex-wrap:wrap}.project-card[data-category=academic] img[src*=form]{object-fit:contain;background:#fff}
 
+
+.personal-intro{display:grid;grid-template-columns:1fr 2fr;gap:60px;padding-block:65px;border-bottom:1px solid var(--line)}.personal-intro h2{font-size:clamp(32px,4vw,58px);font-weight:400;letter-spacing:-.045em;line-height:1.12;margin-bottom:25px}.personal-intro p{max-width:660px;font-size:15px;line-height:1.85;color:var(--muted);margin-bottom:25px}.about-copy>p{line-height:1.85}@media(max-width:650px){.personal-intro{grid-template-columns:1fr;gap:20px;padding-block:42px}.personal-intro p{font-size:13px}}
