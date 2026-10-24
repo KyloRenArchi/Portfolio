@@ -9,3 +9,6 @@
 
 
 @media(max-width:650px){.identity br:nth-child(2){display:initial}.hero-link img{aspect-ratio:1.5;object-fit:cover}.hero-badge .hero-project{font-size:14px}}
+
+.filter-set{flex-wrap:wrap}.project-card[data-category=academic] img[src*=form]{object-fit:contain;background:#fff}
+
